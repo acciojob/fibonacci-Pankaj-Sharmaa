@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci Calculator</title>
+    <script src="fibonacci.js" defer></script>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <h1>Fibonacci Calculator</h1>
+    <label for="numInput">Enter a number:</label>
+    <input type="number" id="numInput" min="0" max="50">
+    <button onclick="calculateFibonacci()">Calculate Fibonacci</button>
+    <p id="result"></p>
 </body>
-
 </html>
